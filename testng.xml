@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ghuru/IdeaProjects/Automation_Testing_MavenCucumberJenkins/src/test/java/MavenPack/MvnTests.java">
+        <classes>
+            <class name="MavenPack.MvnTests">
+                <methods>
+                    <include name="testOne"/>
+                    <include name="testTwo"/>
+                    <include name="testThree"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
